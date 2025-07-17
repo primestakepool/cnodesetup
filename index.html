@@ -1,24 +1,163 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Simple Page</title>
+    <title>My First Webpage</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="script/script.js"></script>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <h1>Main Header Here</h1>
+            <h2>
+                <small>And small subheader here</small>
+            </h2>
+        </div>
+    </header>
 
-<header>
-  <img src="logo.png" alt="Logo" width="100">
-  <h1>My Website</h1>
-  <nav>
-    <a href="#">Home</a> |
-    <a href="#">About</a> |
-    <a href="#">Contact</a>
-  </nav>
-</header>
+    <nav class="page-navigation">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+            <form action="#" class="login">
+                <input type="text" placeholder="Login" required>
+                <input type="password" placeholder="Password" required>
+                <input type="submit" value="Sign In">
+            </form>
+        </div>
+    </nav>
 
-<main>
-  <h2>Main Content Heading</h2>
-  <p>This is a paragraph with some text.</p>
-</main>
+    <main>
+        <div class="container">
+            <!-- Image Collection -->
+            <h2 class="collection-title">Image Collection <small>Visualize Quality</small></h2>
+            <div class="collections">
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <img src="images/profile.jpg" alt="List picture">
+                        <div class="collection-text">
+                            <h3>List Element Item</h3>
+                            <p>Lorem ipsum Aute aute ex cillum eiusmod veniam exercitation anim aute consequat occaecat
+                                proident laboris culpa incididunt in ut do sit commodo incididunt consectetur
+                                reprehenderit aliquip cupidatat sunt ea ad reprehenderit ea commodo consequat commodo
+                                Ut do ullamco. Lorem ipsum Ullamco ut sit in ut in deserunt amet Ut occaecat deserunt
+                                aute non incididunt sunt et dolor. Lorem ipsum Nostrud aliqua ut ex magna ut officia
+                                magna ut fugiat in ex deserunt non cillum eiusmod quis dolore officia consectetur
+                                veniam in anim reprehenderit adipisicing quis exercitation commodo incididunt
+                                adipisicing nisi sit labore consectetur Ut.</p>
+                            <button type="button" onclick="toggleParHeight(this)">Read more...</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <img src="images/profile.jpg" alt="List picture">
+                        <div class="collection-text">
+                            <h3>List Element Item</h3>
+                            <p>Lorem ipsum Aute aute ex cillum eiusmod veniam exercitation anim aute consequat occaecat
+                                proident laboris culpa incididunt in ut do sit commodo incididunt consectetur
+                                reprehenderit aliquip cupidatat sunt ea ad reprehenderit ea commodo consequat commodo
+                                Ut do ullamco. Lorem ipsum Ullamco ut sit in ut in deserunt amet Ut occaecat deserunt
+                                aute non incididunt sunt et dolor. Lorem ipsum Nostrud aliqua ut ex magna ut officia
+                                magna ut fugiat in ex deserunt non cillum eiusmod quis dolore officia consectetur
+                                veniam in anim reprehenderit adipisicing quis exercitation commodo incididunt
+                                adipisicing nisi sit labore consectetur Ut.</p>
+                            <button type="button" onclick="toggleParHeight(this)">Read more...</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <img src="images/profile.jpg" alt="List picture">
+                        <div class="collection-text">
+                            <h3>List Element Item</h3>
+                            <p>Lorem ipsum Aute aute ex cillum eiusmod veniam exercitation anim aute consequat occaecat
+                                proident laboris culpa incididunt in ut do sit commodo incididunt consectetur
+                                reprehenderit aliquip cupidatat sunt ea ad reprehenderit ea commodo consequat commodo
+                                Ut do ullamco. Lorem ipsum Ullamco ut sit in ut in deserunt amet Ut occaecat deserunt
+                                aute non incididunt sunt et dolor. Lorem ipsum Nostrud aliqua ut ex magna ut officia
+                                magna ut fugiat in ex deserunt non cillum eiusmod quis dolore officia consectetur
+                                veniam in anim reprehenderit adipisicing quis exercitation commodo incididunt
+                                adipisicing nisi sit labore consectetur Ut.</p>
+                            <button type="button" onclick="toggleParHeight(this)">Read more...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Video Collection -->
+            <h2 class="collection-title">Image Collection <small>Visualize Quality</small></h2>
+            <div class="collections">
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <video controls>
+                            <source src="video/movie.mp4" type="video/mp4">
+                        </video>
+                        <div class="collection-text">
+                            <h3>List Element Item</h3>
+                            <p>Lorem ipsum Aute aute ex cillum eiusmod veniam exercitation anim aute consequat occaecat
+                                proident laboris culpa incididunt in ut do sit commodo incididunt consectetur
+                                reprehenderit aliquip cupidatat sunt ea ad reprehenderit ea commodo consequat commodo
+                                Ut do ullamco. Lorem ipsum Ullamco ut sit in ut in deserunt amet Ut occaecat deserunt
+                                aute non incididunt sunt et dolor. Lorem ipsum Nostrud aliqua ut ex magna ut officia
+                                magna ut fugiat in ex deserunt non cillum eiusmod quis dolore officia consectetur
+                                veniam in anim reprehenderit adipisicing quis exercitation commodo incididunt
+                                adipisicing nisi sit labore consectetur Ut.</p>
+                            <button type="button" onclick="toggleParHeight(this)">Read more...</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <video controls>
+                            <source src="video/movie.mp4" type="video/mp4">
+                        </video>
+                        <div class="collection-text">
+                            <h3>List Element Item</h3>
+                            <p>Lorem ipsum Aute aute ex cillum eiusmod veniam exercitation anim aute consequat occaecat
+                                proident laboris culpa incididunt in ut do sit commodo incididunt consectetur
+                                reprehenderit aliquip cupidatat sunt ea ad reprehenderit ea commodo consequat commodo
+                                Ut do ullamco. Lorem ipsum Ullamco ut sit in ut in deserunt amet Ut occaecat deserunt
+                                aute non incididunt sunt et dolor. Lorem ipsum Nostrud aliqua ut ex magna ut officia
+                                magna ut fugiat in ex deserunt non cillum eiusmod quis dolore officia consectetur
+                                veniam in anim reprehenderit adipisicing quis exercitation commodo incididunt
+                                adipisicing nisi sit labore consectetur Ut.</p>
+                            <button type="button" onclick="toggleParHeight(this)">Read more...</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <video controls>
+                            <source src="video/movie.mp4" type="video/mp4">
+                        </video>
+                        <div class="collection-text">
+                            <h3>List Element Item</h3>
+                            <p>Lorem ipsum Aute aute ex cillum eiusmod veniam exercitation anim aute consequat occaecat
+                                proident laboris culpa incididunt in ut do sit commodo incididunt consectetur
+                                reprehenderit aliquip cupidatat sunt ea ad reprehenderit ea commodo consequat commodo
+                                Ut do ullamco. Lorem ipsum Ullamco ut sit in ut in deserunt amet Ut occaecat deserunt
+                                aute non incididunt sunt et dolor. Lorem ipsum Nostrud aliqua ut ex magna ut officia
+                                magna ut fugiat in ex deserunt non cillum eiusmod quis dolore officia consectetur
+                                veniam in anim reprehenderit adipisicing quis exercitation commodo incididunt
+                                adipisicing nisi sit labore consectetur Ut.</p>
+                            <button type="button" onclick="toggleParHeight(this)">Read more...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright &#169; Example.com 2015</p>
+        </div>
+    </footer>
 </body>
 </html>
