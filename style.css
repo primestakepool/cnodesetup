@@ -34,8 +34,8 @@ img {
     width: auto;  /* Adjust the width as needed */ 
     height: auto;  /* Maintain aspect ratio */ 
     position: absolute; /* Positioning the logo */ 
-    top: 0; 
-    left: 0; 
+    top: 10%; 
+    left: 20%; 
 } 
 
 p {
