@@ -35,7 +35,7 @@ img {
     height: auto;  /* Maintain aspect ratio */ 
     position: absolute; /* Positioning the logo */ 
     display: flex;
-    align-items: center;
+    align-items: left;
     top: 200px; 
     left: 400px; 
     z-index: 10001;
