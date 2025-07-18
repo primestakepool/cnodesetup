@@ -34,8 +34,8 @@ img {
     width: auto;  /* Adjust the width as needed */ 
     height: auto;  /* Maintain aspect ratio */ 
     position: absolute; /* Positioning the logo */ 
-    top: 10px; 
-    left: 280px; 
+    top: 280px; 
+    left: 320px; 
     z-index: 10001;
 } 
 
@@ -259,16 +259,7 @@ p {
   #header .hamburger {
     display: none;
   }
-
-  .logo { 
-    width: auto;  /* Adjust the width as needed */ 
-    height: auto;  /* Maintain aspect ratio */ 
-    position: absolute; /* Positioning the logo */ 
-    top: 300px; 
-    left: 280px; 
-    z-index: 10001;
-} 
-
+  
   #header .nav-list ul {
     position: initial;
     display: block;
