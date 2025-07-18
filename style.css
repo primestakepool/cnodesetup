@@ -34,8 +34,6 @@ img {
     width: 150px;  /* Adjust the width as needed */ 
     height: auto;  /* Maintain aspect ratio */ 
     position: absolute; /* Positioning the logo */ 
-    display: flex;
-    align-items: left;
     top: 200px; 
     left: 400px; 
     z-index: 10001;
