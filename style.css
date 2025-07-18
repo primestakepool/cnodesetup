@@ -386,6 +386,15 @@ p {
     padding: 20px 60px;
   }
 
+  .logo { 
+    width: auto;  /* Adjust the width as needed */ 
+    height: auto;  /* Maintain aspect ratio */ 
+    position: absolute; /* Positioning the logo */ 
+    top: 500px; 
+    left: 280px; 
+    z-index: 10001;
+} 
+
   h1.section-title {
     font-size: 6rem;
     font-weight: 270;
