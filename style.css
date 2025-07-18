@@ -35,7 +35,7 @@ img {
     height: auto;  /* Maintain aspect ratio */ 
     position: absolute; /* Positioning the logo */ 
     top: 10px; 
-    left: 250px; 
+    left: 280px; 
     z-index: 10001;
 } 
 
