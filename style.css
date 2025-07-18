@@ -33,7 +33,7 @@ img {
 .logo { 
     width: initial;  /* Adjust the width as needed */ 
     height: initial;  /* Maintain aspect ratio */ 
-    position: static; /* Positioning the logo */ 
+    position: sticky; /* Positioning the logo */ 
     top: 200px; 
     left: 400px; 
     z-index: 10001;
