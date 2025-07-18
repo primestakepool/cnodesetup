@@ -36,7 +36,7 @@ img {
     position: absolute; /* Positioning the logo */ 
     top: 10px; 
     left: 10px; 
-    z-index: 3;
+    z-index: 101;
 } 
 
 p {
