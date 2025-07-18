@@ -36,7 +36,6 @@ img {
     position: absolute; /* Positioning the logo */ 
     top: 200px; 
     left: 400px; 
-    float: none;
     z-index: 10001;
 } 
 
@@ -211,7 +210,6 @@ p {
   top: 0;
   z-index: 1;
   overflow-x: hidden;
-  padding-right: 10px;
   transition: 0.3s ease left;
   
 }
