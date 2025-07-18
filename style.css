@@ -30,14 +30,6 @@ img {
   object-fit: cover;
 }
 
-.logo { 
-    width: auto;  /* Adjust the width as needed */ 
-    height: auto;  /* Maintain aspect ratio */ 
-    position: absolute; /* Positioning the logo */ 
-    top: 0; 
-    left: 0; 
-} 
-
 p {
   color: black;
   font-size: 1.4rem;
