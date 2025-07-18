@@ -293,8 +293,8 @@ p {
 #hero::after {
   content: "";
   position: absolute;
-  left: 20px;
-  top: 10px;
+  left: 0;
+  top: 0;
   height: 100%;
   width: 100%;
   background-color: black;
