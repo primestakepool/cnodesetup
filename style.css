@@ -31,9 +31,9 @@ img {
 }
 
 .logo { 
-    width: 100px;  /* Adjust the width as needed */ 
+    width: 100%;  /* Adjust the width as needed */ 
     height: auto;  /* Maintain aspect ratio */ 
-    position: fixed; /* Positioning the logo */ 
+    position: absolute; /* Positioning the logo */ 
     top: 200px; 
     left: 400px; 
     z-index: 10001;
