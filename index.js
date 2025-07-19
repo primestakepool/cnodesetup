@@ -26,3 +26,20 @@ document.addEventListener("scroll", () => {
   }
 });
 
+
+const copyButton = document.querySelector('.copy-button');
+const codeBlock = document.getElementById('code-block');
+
+copyButton.addEventListener('click', () => {
+  const textToCopy = codeBlock.innerText;
+
+  navigator.clipboard.writeText(textToCopy).then(() => {
+    // Optional: Change button text or show a message
+    copyButton.innerText = 'Copied!';
+    setTimeout(() => {
+      copyButton.innerText = 'Copy';
+    }, 2000);
+  }).catch(err => {
+    console.error('Failed to copy text: ', err);
+  });
+});
