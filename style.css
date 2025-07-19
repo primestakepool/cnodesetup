@@ -30,14 +30,14 @@ img {
   object-fit: cover;
 }
 
-.logo { 
+/*.logo { 
     width: 150px;  /* Adjust the width as needed */ 
     height: auto;  /* Maintain aspect ratio */ 
     position: relative; /* Positioning the logo */ 
     top: 200px; 
     left: 400px; 
     z-index: 10001;
-}  
+}  */
 
 p {
   color: black;
@@ -381,11 +381,9 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-  background-image: url(./images/logo.png);
-  background-size: cover;
-  background-position: top center;
-  position: relative;
-  z-index: 1;
+  body {
+    background-image: url(./images/logo.png);
+  }
 }
 
 @media only screen and (min-width: 768px) {
