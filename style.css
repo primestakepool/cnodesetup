@@ -287,7 +287,6 @@ p {
   background-image: url(./images/logo.png);
   background-size: 100%;
   background-position: top center;
-  background-repeat: no-repeat,
   position: relative;
   z-index: 1;
 }
@@ -380,6 +379,11 @@ p {
 #hero h1:nth-child(3) span {
   animation-delay: 2.5s;
 }
+
+@media only screen and (max-width: 600px) {
+  #hero {
+    background-image: url(./images/logo.png);
+  }
 
 @media only screen and (min-width: 768px) {
   .cta {
