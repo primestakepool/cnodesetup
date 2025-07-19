@@ -30,6 +30,25 @@ img {
   object-fit: cover;
 }
 
+.code-container {
+  position: relative;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.copy-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
 p {
   color: black;
   font-size: 1.4rem;
