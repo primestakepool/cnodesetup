@@ -285,7 +285,7 @@ p {
 
 #hero {
   background-image: url(./images/logo.png);
-  background-size: cover;
+  background-size: contain;
   background-position: top center;
   position: relative;
   z-index: 1;
